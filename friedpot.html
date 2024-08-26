@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All our not fried potaotes</title>
+    <link rel="stylesheet" href="csss/spudly.css">
+    <link rel="icon" type="image/x-icon" href="images/mehpotato-fococlipping-standard.png">
+</head>
+
+<body>
+    <div class="clearfix navbg">
+        <div class="nav navbg">
+            <h1 class="name "><b>Spudly</b></h1>
+            <hr>
+            <a class="nav-item" href="spudly.html">Home</a>
+            <a class="nav-item" href="productlist.html">Product list - potatoes</a>
+            <a class="nav-item" href="productlistac.html">Product list - accessories</a>
+            <a class="nav-item" href="allproducts.html">All products</a>
+            <a class="nav-item" href="spudly.html#aboutpota">About our potatoes</a>
+            <a class="nav-item" href="spudly.html#aboutuss">About us</a>
+            <a class="nav-item" href="contactus.html">Contact</a>
+            <p></p>
+        </div>
+        <div class="main-content">
+            <div class="clearfix">
+                <img class="mainlogo" src="images/very cute potato-fococlipping-standard.png" alt="cute potato">
+                <a href="shoppingcart.html"> <img class="shoppingcart" src="images/greencart2-fococlipping-standard.png"
+                        alt="green cart"></a>
+
+                <div class="dropdown login">
+                    <img class="picturelogin" src="images/greenperson-fococlipping-standard.png "
+                        alt="login green person">
+                    <div class="dropdown-content">
+                        <p>Already a Spudly member?</p>
+                        <p>Login now!</p>
+                        <div class="desc">
+                            <form action="#" method="post">
+                                <label for="fname">Username:</label><br>
+                                <input class="textbox" type="text" id="fname" name="fname" placeholder="username"><br>
+                                <label for="lname">Password:</label><br>
+                                <input class="textbox" type="password" id="lname" placeholder="password"><br><br>
+                                <input class="formbutton" type="submit" value="Login">
+                            </form>
+                        </div>
+                        <p><i>not a member yet? <a href="registration.html" class="registration">register</a> now</i>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <p class="name pagenames"><b>All our not raw products</b></p>
+            <hr>
+            <div class="size box">
+                <img class="imgspec" src="images/sajdklsad-fococlipping-standard.png" alt="mashed potaotes">
+                <p class="potatoesop"><b>Mashed potatoes</b></p>
+                <p class="price">$3</p>
+                <a href="smashedpot.html">
+                    <button class="potatoesbuttoms button" style="vertical-align: middle"><span>buy now!</span></button>
+                </a>
+            </div>
+            <div class="box">
+                <img class="imgspec" src="images/bonjour(1)(1)-fococlipping-standard.png" alt="french fries">
+                <p class="potatoesop"><b>French fries</b></p>
+                <p class="price">$4</p>
+                <a href="frenchyfries.html">
+                    <button class="potatoesbuttoms button" style="vertical-align:middle"><span>buy now!</span></button>
+                </a>
+            </div>
+            <div class="box">
+                <img class="imgspec" src="images/iamcooked(1)-fococlipping-standard.png" alt="cooked potaotes">
+                <p class="potatoesop"><b>Cooked potato</b></p>
+                <p class="price">$2</p>
+                <a href="cookedpot.html">
+                    <button class="potatoesbuttoms button" style="vertical-align:middle"><span>buy now!</span></button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <p class="info">&copy; Spudly 2023 </p><br>
+            <a class="questions clicker" href="question.html">Questions</a>
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+        <script>
+            let mybutton = document.getElementById("myBtn");
+
+            window.onscroll = function () { scrollFunction() };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+            function topFunction() {
+                document.documentElement.scrollTop = 0;
+            } 
+        </script>
+        <img class="footerimg" src="images/footerpotato-fococlipping-standard.png" alt="eating potato">
+    </footer>
+</body>
+
+</html>

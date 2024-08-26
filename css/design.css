@@ -1,0 +1,63 @@
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: rgb(248, 244, 205);
+    position: relative;
+    display: inline-block;
+    padding: 0 10px;
+    text-align: center;
+  }
+  
+
+  .title::before,
+  .title::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #ffe595, #fbb7a3);
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s;
+  }
+  
+  .title::before {
+    left: 0;
+    transform-origin: center;
+  }
+  
+  .title::after {
+    right: 0;
+    transform-origin: center;
+  }
+  
+  .title:hover::before {
+    transform: scaleX(1);
+    transform-origin: center;
+  }
+  
+  .title:hover::after {
+    transform: scaleX(1);
+    transform-origin: center;
+  }
+  
+  .title::selection {
+    background: #71c3f5;
+    color: #f33131;
+   
+  }
+  
+  .title span {
+    position: relative;
+    z-index: 1;
+    background-color: crimson;
+    padding: 0 10px;
+    
+  }
+  
+  .title:hover span {
+    color: khaki;
+  }
+  

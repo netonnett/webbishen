@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contuct us</title>
+    <link rel="stylesheet" href="csss/spudly.css">
+    <link rel="icon" type="image/x-icon" href="images/mehpotato-fococlipping-standard.png">
+</head>
+
+<body>
+    <div class="clearfix navbg">
+        <div class="nav navbg">
+            <h1 class="name "><b>Spudly</b></h1>
+            <hr>
+            <a class="nav-item" href="spudly.html">Home</a>
+            <a class="nav-item" href="productlist.html">Product list - potatoes</a>
+            <a class="nav-item" href="productlistac.html">Product list - accessories</a>
+            <a class="nav-item" href="allproducts.html">All products</a>
+            <a class="nav-item" href="spudly.html#aboutpota">About our potatoes</a>
+            <a class="nav-item" href="spudly.html#aboutuss">About us</a>
+            <a class="nav-item" href="contactus.html">Contact</a>
+            <p></p>
+        </div>
+        <div class="main-content">
+            <div class="clearfix">
+                <img class="mainlogo" src="images/very cute potato-fococlipping-standard.png" alt="cute potato">
+                <a href="shoppingcart.html"> <img class="shoppingcart" src="images/greencart2-fococlipping-standard.png"
+                        alt="green cart"></a>
+
+                <div class="dropdown login">
+                    <img class="picturelogin" src="images/greenperson-fococlipping-standard.png "
+                        alt="login green person">
+                    <div class="dropdown-content">
+                        <p>Already a Spudly member?</p>
+                        <p>Login now!</p>
+                        <div class="desc">
+                            <form action="#" method="post">
+                                <label for="fname">Username:</label><br>
+                                <input class="textbox" type="text" id="fname" name="fname" placeholder="username"><br>
+                                <label for="lname">Password:</label><br>
+                                <input class="textbox" type="password" id="lname" placeholder="password"><br><br>
+                                <input class="formbutton" type="submit" value="Login">
+                            </form>
+                        </div>
+                        <p><i>not a member yet? <a href="registration.html" class="registration">register</a> now</i>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <p class="name pagenames"><b>Contact us!</b></p>
+
+            <p class="chunkytext">
+                If you have any questions regarding our website or our company, please don't hesitate to call, email or
+                even send a message on this website.<br>
+                <br>
+                At Spudly we daily work to enhance and better our consumers' experience. Not just with our products but
+                also our website and customer service.<br>
+                <br>
+                That is why the Spudly team greatly appreciates any type of feedback - positive or negative, so we can
+                together improve Spudly.<br>
+                <br>
+                Our highest priority is our customers' happiness. Our customers always come first. Even if you are a
+                first time customer or a regular, or just checking us out, we want you to have the best experience.<br>
+                <br>
+                If you have anything to tell us don't hesitate to contact us. If you have any questions we recommend to
+                first check out the <a class="click" href="question.html"><i>frequently asked questions</i></a> page, or
+                contact us.
+                We gladly help with any type of questions or feedback!<br>
+                <br>
+                <br>
+                Tel: +46 70-000 00 89<br>
+                <br>
+                Email: spudly.team@gmail.com<br>
+                <br>
+                Or write to us now!:
+
+            </p>
+            <div class="contactform conmar">
+                <form action="https://formspree.io/f/mdorverw" method="POST"><br>
+                    <br>
+                    <input style="margin-left: 30px;" class="contactform" type="text" name="Name" placeholder="fullname"
+                        required><br>
+                    <br>
+                    <input class="contactform" type="email" name="Email" placeholder="email" required><br>
+                    <br>
+                    <textarea class="contactform msg" name="Message" placeholder="message" required></textarea><br>
+                    <br>
+                    <button class="button conbut" type="submit">Send!</button><br>
+                    <br>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <p class="info">&copy; Spudly 2023 </p>
+            <br>
+            <a class="questions clicker" href="question.html">Questions</a>
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+        <script>
+            let mybutton = document.getElementById("myBtn");
+
+            window.onscroll = function () { scrollFunction() };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+            function topFunction() {
+                document.documentElement.scrollTop = 0;
+            } 
+        </script>
+        <img class="footerimg" src="images/footerpotato-fococlipping-standard.png" alt="eating potato">
+    </footer>
+</body>
+
+</html>

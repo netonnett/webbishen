@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <link rel="icon" type="image/x-icon" href="images/mehpotato-fococlipping-standard.png">
+    <style>
+        body {
+            background-color:#b9ccbd;
+        }
+
+        .mainbox {
+           background-color: #D1DCF0;
+           margin: auto;
+            border-style: solid;
+            text-align: center;
+            width:40%;
+           
+            height:50%
+        }
+
+        form {
+          
+            padding-left: 0%;
+            color:#7B656E;
+        }
+
+        .formdiv{
+            background-color:#D1DCF0 ;
+        }
+
+        .title{
+            padding-left: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color:#7B656E;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        .text{
+            color:#7B656E;
+        }
+
+        .formbutton{
+            border-radius: 20px;
+            border: none;
+            text-align: center;
+            font-size: 15px;
+            padding: 10px;
+            width: 90px;
+            background-color: #D1DCF0;
+            color: #7B656E;
+            cursor: pointer;
+        }
+
+        .formbutton:hover{
+            background-color: #7B656E;
+            color: #D1DCF0;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="title"><b><i>Spudly</i></b></p>
+
+    <div class="mainbox">
+        <br>
+        <p class="text">Become a Spudly member today!</p>
+        <div class="formdiv">
+            <form action="spudly.html" >
+                <br>
+                <label for="fname">Email:</label><br>
+                <input class="textbox" type="email" id="email" name="email" placeholder="email"><br>
+                <lable for="username">Username:</lable><br>
+                <input class="textbox" type="text" id="username" placeholder="username"><br>
+                <label for="lname">Password:</label><br>
+                <input class="textbox" type="password" id="password" placeholder="password"><br>
+                <label for="pcomfirm">Comfirm password:</label><br>
+                <input type="password" id="pcomfirm" placeholder="comfrim password"><br><br>
+
+                <a href="spudly.html">
+                    <input class="formbutton" type="submit" value="submit">
+                </a>
+
+                <br><br>
+                <br>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
